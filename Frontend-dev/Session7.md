@@ -1,6 +1,7 @@
 ### JavaScript Notes
 
 #### 1. How to Add JavaScript to an HTML File
+
 - **Inline Script:**
   You can write JavaScript code directly inside the HTML file using the `<script>` tag.
   ```html
@@ -24,7 +25,7 @@
     </body>
   </html>
   ```
-  *Note:* Make sure the `script.js` file is in the same directory as your HTML file or specify the correct path.
+  *Note:* Ensure the `script.js` file is in the same directory as your HTML file, or specify the correct path.
 
 - **In the Head Section:**
   You can place the `<script>` tag inside the `<head>` section of your HTML file.
@@ -40,9 +41,10 @@
     </body>
   </html>
   ```
-  *Note:* It's a good practice to place JavaScript at the end of the body for better performance unless it's necessary to run the script early.
+  *Note:* It's generally a good practice to place JavaScript at the end of the body for better performance unless it needs to run early.
 
 #### 2. `console.log`, `prompt`, and `alert`
+
 - **`console.log`:** 
   This function is used to print or log messages to the browser's console (useful for debugging).
   ```javascript
@@ -63,6 +65,7 @@
   ```
 
 #### 3. Variables and How to Declare Them
+
 - **`var`:** 
   Older way of declaring variables. It has function scope and can be redeclared.
   ```javascript
@@ -86,7 +89,71 @@
 
   *Note:* Use `let` and `const` for variable declarations in modern JavaScript, as they provide better scoping and prevent errors.
 
-#### 4. Objects: How to Create and Access Them
+#### 4. Data Types in JavaScript
+
+JavaScript has different data types, which can be categorized into two main types: **Primitive** and **Non-Primitive (Reference)**.
+
+- **Primitive Data Types:**
+  1. **String:** A sequence of characters used to represent text.
+     ```javascript
+     let greeting = "Hello, World!";
+     ```
+
+  2. **Number:** Represents both integer and floating-point numbers.
+     ```javascript
+     let age = 30;
+     let price = 9.99;
+     ```
+
+  3. **Boolean:** Represents logical values: `true` or `false`.
+     ```javascript
+     let isAvailable = true;
+     ```
+
+  4. **Undefined:** A variable that has been declared but not assigned a value.
+     ```javascript
+     let name;
+     console.log(name); // Output: undefined
+     ```
+
+  5. **Null:** Represents an intentionally empty value.
+     ```javascript
+     let value = null;
+     ```
+
+  6. **Symbol:** Represents a unique identifier.
+     ```javascript
+     let sym = Symbol("id");
+     ```
+
+  7. **BigInt:** Represents large integers beyond the safe integer limit.
+     ```javascript
+     let bigNumber = BigInt(9007199254740991);
+     ```
+
+- **Non-Primitive Data Types:**
+  1. **Object:** Used to store collections of data or more complex entities.
+     ```javascript
+     let person = {
+       name: "John",
+       age: 30
+     };
+     ```
+
+  2. **Array:** A special type of object used to store ordered lists of items.
+     ```javascript
+     let fruits = ["Apple", "Banana", "Mango"];
+     ```
+
+  3. **Function:** A block of code designed to perform a particular task.
+     ```javascript
+     function greet() {
+       console.log("Hello, World!");
+     }
+     ```
+
+#### 5. Objects: How to Create and Access Them
+
 - **Creating an Object:**
   An object is a collection of properties, where each property has a key and a value.
   ```javascript
