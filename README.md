@@ -16,6 +16,8 @@ This README provides an overview of the session, training and links to detailed 
 | 004        | CSS Notes      | 2024-08-16 | [Session 004](Frontend-dev/Session4.md) |
 | 005        | CSS Positions      | 2024-08-19 | [Session 005](Frontend-dev/Session5.md) |
 | 006        | Media Query      | 2024-08-20 | [Session 006](Frontend-dev/Session6.md) |
+| 007        | Js - Beginning     | 2024-08-21 | [Session 007](Frontend-dev/Session7.md) |
+| 008        | Operators & conditional statements      | 2024-08-22 | [Session 008](Frontend-dev/Session8.md) |
 
 
 Feel free to explore the detailed session and task notes by following the links provided in the tables above.
