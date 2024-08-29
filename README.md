@@ -19,7 +19,9 @@ This README provides an overview of the session, training and links to detailed 
 | 007        | Js - Beginning     | 2024-08-21 | [Session 007](Frontend-dev/Session7.md) |
 | 008        | Operators & conditional statements      | 2024-08-22 | [Session 008](Frontend-dev/Session8.md) |
 | 009        | Loops in JS     | 2024-08-23 | [Session 009](Frontend-dev/Session9.md) |
-| 010        | Array and Array Functions     | 2024-08-27 | [Session 010](Frontend-dev/Session10.md) |
+| 010        | Arrays    | 2024-08-27 | [Session 010](Frontend-dev/Session10.md) |
+| 011       | Functions and Array Functions     | 2024-08-27 | [Session 011](Frontend-dev/Session11.md) |
+
 
 
 Feel free to explore the detailed session and task notes by following the links provided in the tables above.
