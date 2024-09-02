@@ -21,6 +21,7 @@ This README provides an overview of the session, training and links to detailed 
 | 009        | Loops in JS     | 2024-08-23 | [Session 009](Frontend-dev/Session9.md) |
 | 010        | Arrays    | 2024-08-27 | [Session 010](Frontend-dev/Session10.md) |
 | 011       | Functions and Array Functions     | 2024-08-27 | [Session 011](Frontend-dev/Session11.md) |
+| 012       | Asynchronous functions and handlings    | 2024-09-03 | [Session 012](Frontend-dev/Session12.md) |
 
 
 
