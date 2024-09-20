@@ -12,7 +12,7 @@ Create a React application that fetches data from an API and displays it in a ca
 2. **Fetch Movie Data:**
    - Use the provided API snippet below to fetch data about the top 100 movies from IMDb.
    - Install `axios` if it's not already included in your project.
-  
+
    ```javascript
    import axios from 'axios';
 
@@ -35,6 +35,7 @@ Create a React application that fetches data from an API and displays it in a ca
 
 3. **Understand the API Response:**
    - Review the data structure returned by the API to identify the relevant fields for displaying movie details.
+   - For reference to the API, you can visit [this link](https://rapidapi.com/rapihub-rapihub-default/api/imdb-top-100-movies/playground/apiendpoint_e356f09e-d37e-4eab-b36b-28ed1e4f95e2).
 
 4. **Create the Movie Cards UI:**
    - Design a card component that displays the movie's title, poster, release year, and any other relevant information.
